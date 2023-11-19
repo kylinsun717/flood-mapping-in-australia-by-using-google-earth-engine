@@ -1,4 +1,4 @@
-# flood-mapping-in-australia-by-using-google-earth-engine
+# Flood mapping in Australia by using Google Earth Engine
 
 ## Description
 
@@ -6,3 +6,22 @@ Executive Summary: Australia’s susceptibility to floods and the related impact
 
 ## Method
 
+
+
+### Flood Information
+- Interactive map interface to select the catchment area
+- define flood period by start and end dates.
+### Select Satellite
+Select desire satellite from four options:
+- Sentinel 2
+- VIIRS 
+- MODIS 
+- Landsat 8
+
+### Input NDWI Threshold
+NDWI Threshold is set at default value of 0.
+This will vary based on different locations, time and selected satellite, and hence visual validation by the user will be required.
+### Single-date image selection
+Users can select a single-date image within the specified time for the chosen satellite.
+### Visualisation selection
+Users can choose between Natural colour (RGB) and NDWI visualisation, tailoring the output to their specific analytical need.
